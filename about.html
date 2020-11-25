@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Olimpya Kids</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600,900" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="library/scroll/style_carousel.css">
+  <link rel="stylesheet" href="library/scroll/style_scroll_effect.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <nav>
+    <div class="row">
+      <div class="one column">Olimp</div>
+      <div class="eleven columns">links</div>
+    </div>
+  </nav> -->
+
+  <nav>
+    <img src="images/home/olimpcity.png" class="logoHome" alt="">
+    <div class="tombolNav">
+        <ul>
+          <li>
+            <a href="#">About Us</i></a>
+          </li>
+          <li>
+              <a href="#">Program</i></a>
+          </li>
+          <li>
+              <a href="#">OlimpyaCity</i></a>
+          </li>
+          <li>
+              <a href="#">Parenting</i></a>
+          </li>
+          <li>
+              <a href="#">Academics</i></a>
+          </li>
+          <li>
+              <a href="#">Partners</i></a>
+          </li>
+          <li>
+              <a href="#">Store</i></a>
+          </li>
+          <li>
+              <a href="#">Highlight</i></a>
+          </li>
+          <li>
+              <a href="#">EN</i></a>
+          </li>
+          <li>
+              <a href="#">Sign in</i></a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- Tab Utama -->
+  <div class="container narrow">
+    <div class="row tablinks">
+      <button class="tablink uc" onclick="openPage('tabwhat', this)" id="defaultOpen">What Is Olimpya Kids?</button> 
+      <button class="tablink uc" onclick="openPage('tabmethods', this)">Methods</button> 
+      <button class="tablink uc" onclick="openPage('tabmascots', this)">Mascots</button> 
+    </div>
+  </div>
+  <!-- End Tab Utama -->
+
+
+  <section class="tabcontent whatis" id="tabwhat">
+    <div class="container narrow">
+
+      <div class="row about-us">
+        <div class="one-half column">
+          <img src="images/home/about-what/OLIMPYA.png" class="u-max-full-width about-figure" alt="">
+        </div>
+        <div class="one-half column">
+          <img src="images/home/about-what/ABOUTUS-TITLE.png" class="u-max-full-width" alt="">
+          <h4 class="uc" id="glimpse">We are the BIGGEST
+            Fun & Interactive Learning experience platform for children and family.
+          </h4>
+          <p>
+            Olympia Kids facilitated with active learning programs to support children exploration and discovery abilities. We also aim to boost engaging, social and natural interactions between children and their surroundings. It is created and driven by valuing each children growth stages in mind. 
+            <br><br>
+            We will provide our continuous support and assistance for children on each of their growth stages so they could Discover, Explore and Grow their potential and max out their competencies to overcome the future challenges.
+            <br><br>
+            This platform is developed by Experia – The Event Marketing Company. 
+          </p>
+        </div>
+      </div>
+
+      <div class="row about-us">
+        <div class="one-half column">
+          <img src="images/home/about-what/VISION.png" class="u-max-full-width u-pull-right" id="tvision" alt="">
+          <h4 class="uc u-cf" id="vision">
+            Olimpya Kids to be
+            the first and leading platform IN INDONESIA FOR Children TO PROVIDE A FUN AND INTERACTIVE LEARNING EXPERIENCE
+          </h4>
+        </div>
+        <div class="one-half column">
+          <img src="images/home/about-what/OLIMPYA2.png" class="u-max-full-width about-figure" alt="">
+        </div>
+      </div>
+
+      <div class="row about-us">
+        <div class="one-half column">
+          <img src="images/home/about-what/TARGET-VISUAL.png" class="u-max-full-width about-figure" alt="">
+        </div>
+        <div class="one-half column">
+          <img src="images/home/about-what/TARGET-TITLE.png" class="u-max-full-width" alt="">
+          <h4 class="uc" id="mission">
+            WE will bring out all the goodness of education and combine it with the joy and wonder inside the arena. 
+          </h4>
+          <p>
+            This platform will also be particularly special as it become a space where children could interact with friends and families, and be encouraged to enjoy and explore all the fun activities. 
+            <br><br>
+            Olimpya Kids is committed to promote Indonesia's children activities, and further serves to ensure the effectiveness and significance of this platform by working closely with respective stakeholders in academies, governments, children-oriented organization, industry and many more. 
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="tabcontent methods" id="tabmethods">
+    <!-- Tab Method -->
+    <div class="container narrow">
+      <div class="row metlinks">
+        <img src="images/home/about-method/explore icon.png" onclick="openMethod('metex', this)" id="defaultMethod" alt="" class="iconmethod">
+        <img src="images/home/about-method/discover icon.png" onclick="openMethod('metdis', this)" alt="" class="iconmethod">
+        <img src="images/home/about-method/grow icon.png" onclick="openMethod('metgrow', this)" alt="" class="iconmethod">
+      </div>
+    </div>
+    <!-- End Tab Method -->
+
+    <div class="methodcontent" id="metex">
+      <div class="container more-narrow">
+        <div class="row">
+          <div class="one-half column">
+            <img src="images/home/about-method/explore.png" alt="">
+          </div>
+          <div class="one-half column">
+            <h4>Explore</h4>
+            <p>Children searching and inquiring activity focusing to enhance their learning skills and familiarize themselves with the subjects in detail.
+              <br><br>
+              Each learning process are designed to align with each children growth phases, so the end result will be optimum and best suits children and parents goals. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="methodcontent" id="metdis">
+      <div class="container more-narrow">
+        <div class="row">
+          <div class="one-half column">
+            <img src="images/home/about-method/discover.png" alt="">
+          </div>
+          <div class="one-half column">
+            <h4>Discover</h4>
+            <p>Children searching and inquiring activity focusing to enhance their learning skills and familiarize themselves with the subjects in detail.
+              <br><br>
+              Each learning process are designed to align with each children growth phases, so the end result will be optimum and best suits children and parents goals. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="methodcontent" id="metgrow">
+      <div class="container more-narrow">
+        <div class="row">
+          <div class="one-half column">
+            <img src="images/home/about-method/grow.png" alt="">
+          </div>
+          <div class="one-half column">
+            <h4>Grow</h4>
+            <p>Children searching and inquiring activity focusing to enhance their learning skills and familiarize themselves with the subjects in detail.
+              <br><br>
+              Each learning process are designed to align with each children growth phases, so the end result will be optimum and best suits children and parents goals. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tabcontent mascots" id="tabmascots">
+    <div class="container narrow">
+
+      <div class="row about-us mascot">
+        <div class="one-half column">
+          <img src="images/home/about-mascot/neo.png" class="u-max-full-width about-figure" alt="">
+        </div>
+        <div class="one-half column">
+          <img src="images/home/about-mascot/neothe.png" class="u-max-full-width about-figure the" alt="">
+          <p>
+            This platform will also be particularly special as it become a space where children could interact with friends and families, and be encouraged to enjoy and explore all the fun activities. 
+            <br><br>
+            Olimpya Kids is committed to promote Indonesia's children activities, and further serves to ensure the effectiveness and significance of this platform by working closely with respective stakeholders in academies, governments, children-oriented organization, industry and many more. 
+          </p>
+        </div>
+      </div>
+      <div class="row about-us mascot">
+        <div class="one-half column">
+          <img src="images/home/about-mascot/flavathe.png" class="u-max-full-width about-figure the" alt="">
+          <p>
+            This platform will also be particularly special as it become a space where children could interact with friends and families, and be encouraged to enjoy and explore all the fun activities. 
+            <br><br>
+            Olimpya Kids is committed to promote Indonesia's children activities, and further serves to ensure the effectiveness and significance of this platform by working closely with respective stakeholders in academies, governments, children-oriented organization, industry and many more. 
+          </p>
+        </div>
+        <div class="one-half column">
+          <img src="images/home/about-mascot/flava.png" class="u-max-full-width about-figure" alt="">
+        </div>
+      </div>
+      <div class="row about-us mascot">
+        <div class="one-half column">
+          <img src="images/home/about-mascot/noa.png" class="u-max-full-width about-figure" alt="">
+        </div>
+        <div class="one-half column">
+          <img src="images/home/about-mascot/noathe.png" class="u-max-full-width about-figure the" alt="">
+          <p>
+            This platform will also be particularly special as it become a space where children could interact with friends and families, and be encouraged to enjoy and explore all the fun activities. 
+            <br><br>
+            Olimpya Kids is committed to promote Indonesia's children activities, and further serves to ensure the effectiveness and significance of this platform by working closely with respective stakeholders in academies, governments, children-oriented organization, industry and many more. 
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+
+  <section class="contact animatable moveUp animate-out">
+    <img src="images/home/awan-contact.png" alt="" id="awan-contact">
+    <img src="images/home/contactimg.png" alt="" id="backcontact">
+    <div class="container">
+      <div class="six columns rel animatable moveUp animate-out">
+        <div class="address">
+          <p>Head Quarter:</p>
+          <p id="alamat">PT. Global Kertapati EXPERIA
+            <br>Jl Jeruk Purut 56A, Kel Cilandak
+            <br>Jakarta Selatan, Indonesia - 12560
+          </p>
+          <p>Phone : 021 27874146</p>
+          <div class="socialContact">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="six columns rel animatable moveUp animate-out">
+        <div class="contactform">
+          <h3>Contact</h3>
+          <p>How can we help</p>
+          <form class="formcontact">
+            <label for="textname">Name</label>
+            <input class="u-full-width" type="text">
+
+            <label for="textemail">Email</label>
+            <input class="u-full-width" type="email">
+            
+            <label for="textphone">Telephone</label>
+            <input class="u-full-width" type="number">
+            
+            <label for="textmessage">Mesage</label>
+            <textarea class="u-full-width"></textarea>
+
+            <input class="button-primary" type="submit" id="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/82136c52a0.js" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="library/scroll/script_carousel.js"></script>
+  <script src="library/scroll/script_scroll_effect.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    function openPage(pageName,elmnt) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        // tabcontent[i].classList.remove("show");
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      // document.getElementById(pageName).classList.add("show");
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+<script>
+  function openMethod(pageName,elmnt) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("methodcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+      // tabcontent[i].classList.remove("show");
+    }
+    tablinks = document.getElementsByClassName("iconmethod");
+    for (i = 0; i < tablinks.length; i++) {
+      // tablinks[i].style.backgroundColor = "";
+      tablinks[i].classList.remove("show");
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.classList.add("show");
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultMethod").click();
+</script>
+</body>
+</html>
