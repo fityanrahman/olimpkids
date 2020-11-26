@@ -171,6 +171,7 @@ section.login {
   height: calc(100vh - 360px);
   padding-top: 180px;
   padding-bottom: 180px;
+  overflow: hidden;
 
   background: linear-gradient(180deg, rgba(254,226,91,1) 50%, rgba(245,241,242,1) 100%);
 }
@@ -299,6 +300,7 @@ section.official {
 section.inputmarket {
   max-height: 100%;
   height: calc(100vh - 300px);
+  overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
 
@@ -684,13 +686,14 @@ nav {
 
 /* Section Home */
 
-#awanhome {
+.awanusik {
     position: absolute;
     width: 95%;
 
     -webkit-animation: awans 70s linear infinite;
     -moz-animation: awans 70s linear infinite;
     -o-animation: awans 70s linear infinite;
+    animation: awans 70s linear infinite;
 }
 
 
@@ -1449,6 +1452,15 @@ input[type=number]::-webkit-outer-spin-button {
   color: white;
 }
 
+#awanschlist {
+  animation-delay: 1s;
+
+  -webkit-animation: awans 50s linear infinite;
+  -moz-animation: awans 50s linear infinite;
+  -o-animation: awans 50s linear infinite;
+  animation: awans 50s linear infinite;
+}
+
 .scholarlist h4 {
   background-color: #14455C;
   color: white;
@@ -1513,6 +1525,18 @@ input[type=number]::-webkit-outer-spin-button {
 #sellimg {
   margin: 20px auto;
   display: block;
+}
+
+#permen2 {
+  position: absolute;
+  width: 95%;
+  left: 1%;
+  transition: .4s;
+}
+
+#permen2:hover {
+  transform: translate(-5px, -10px);
+  /* transform: translateY(0, -10px); */
 }
 
 .kidmarket a,
