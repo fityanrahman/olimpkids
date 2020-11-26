@@ -83,10 +83,10 @@
 
   <!-- Tab Utama -->
   <div class="container narrow">
-    <div class="row tablinks">
+    <div class="row tablinks aca">
       <button class="tablink uc" onclick="openPage('tabscholar', this)" id="defaultOpen">Scholarship</button> 
       <button class="tablink uc" onclick="openPage('tabschool', this)">School List</button> 
-      <button class="tablink uc" onclick="openPage('tabbuletin', this)">Bulletin</button> 
+      <button class="tablink uc" onclick="openPage('tabschool', this)">Bulletin</button> 
     </div>
   </div>
   <!-- End Tab Utama -->
@@ -256,9 +256,11 @@
       tablinks = document.getElementsByClassName("tablink");
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "";
+        tablinks[i].style.borderColor = "white";
       }
       document.getElementById(pageName).style.display = "block";
-      // document.getElementById(pageName).classList.add("show");
+      elmnt.style.backgroundColor = "#68A6CE";
+      elmnt.style.borderColor = "#68A6CE";
     }
     
     // Get the element with id="defaultOpen" and click on it

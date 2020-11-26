@@ -372,10 +372,195 @@ section.tasksport {
   height: 100%;
   margin-top: -195px;
   padding-top: 220px;
-  padding-bottom: 100px;
+  padding-bottom: 400px;
   z-index: 2;
   background: url(../images/home/programs/tasksportbg.png);
 }
+
+section.stem {
+  max-height: 100%;
+  height: 100%;
+  padding-top: 240px;
+  padding-bottom: 180px;
+
+  background: linear-gradient(0deg, rgba(214,227,238,1) 0%, rgba(144,196,230,1) 75%);
+}
+
+section.dreamstem {
+  height: 400px;
+  margin-top: -195px;
+  padding-top: 195px;
+  padding-bottom: 180px;
+  z-index: 2;
+  background: url(../images/home/programs/stembg.png);
+}
+
+section.tutorstem {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 100px;
+  z-index: 2;
+  background: url(../images/home/programs/vidstem.png);
+}
+
+section.taskstem {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 400px;
+  z-index: 2;
+  background: url(../images/home/programs/taskstem.png);
+}
+
+section.culture {
+  max-height: 100%;
+  height: 100%;
+  padding-top: 240px;
+  padding-bottom: 180px;
+
+  background: linear-gradient(0deg, rgba(99,198,185,1) 0%, rgba(252,181,85,1) 75%);
+
+}
+
+section.dreamculture {
+  height: 400px;
+  margin-top: -195px;
+  padding-top: 195px;
+  padding-bottom: 180px;
+  z-index: 2;
+  background: url(../images/home/programs/culturebg.png);
+}
+
+section.tutorculture {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 100px;
+  z-index: 2;
+  background: url(../images/home/programs/vidculture.png);
+}
+
+section.taskculture {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 400px;
+  z-index: 2;
+  background: url(../images/home/programs/taskculture.png);
+}
+
+section.kidspren {
+  max-height: 100%;
+  height: 100%;
+  padding-top: 240px;
+  padding-bottom: 180px;
+
+  background: linear-gradient(0deg, rgba(176,225,240,1) 0%, rgba(39,195,235,1) 75%);
+
+}
+
+section.dreamkidspren {
+  height: 400px;
+  margin-top: -195px;
+  padding-top: 195px;
+  padding-bottom: 180px;
+  z-index: 2;
+  background: url(../images/home/programs/kidsprenbg.png);
+}
+
+section.tutorkidspren {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 100px;
+  z-index: 2;
+  background: url(../images/home/programs/vidkidspren.png);
+}
+
+section.taskkidspren {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 400px;
+  z-index: 2;
+  background: url(../images/home/programs/taskkidspren.png);
+}
+
+section.kidzprg {
+  max-height: 100%;
+  height: 100%;
+  padding-top: 240px;
+  padding-bottom: 180px;
+
+  background: linear-gradient(0deg, rgba(217,76,59,1) 0%, rgba(245,132,109,1) 75%);
+
+}
+
+section.dreamkidzprg {
+  height: 400px;
+  margin-top: -195px;
+  padding-top: 195px;
+  padding-bottom: 180px;
+  z-index: 2;
+  background: url(../images/home/programs/kidzprg.png);
+}
+
+section.tutorkidzprg {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 100px;
+  z-index: 2;
+  background: url(../images/home/programs/vidkidzprg.png);
+}
+
+section.taskkidzprg {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 400px;
+  z-index: 2;
+  background: url(../images/home/programs/taskkidzprg.png);
+}
+
+section.artprg {
+  max-height: 100%;
+  height: 100%;
+  padding-top: 240px;
+  padding-bottom: 180px;
+
+  background: linear-gradient(180deg, rgba(92,201,223,1) 0%, rgba(92,191,136,1) 75%);
+
+}
+
+section.dreamartprg {
+  height: 400px;
+  margin-top: -195px;
+  padding-top: 195px;
+  padding-bottom: 180px;
+  z-index: 2;
+  background: url(../images/home/programs/artprg.png);
+}
+
+section.tutorartprg {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 100px;
+  z-index: 2;
+  background: url(../images/home/programs/vidart.png);
+}
+
+section.taskartprg {
+  height: 100%;
+  margin-top: -195px;
+  padding-top: 220px;
+  padding-bottom: 400px;
+  z-index: 2;
+  background: url(../images/home/programs/taskart.png);
+}
+
 /* End Sections */
 
 /* NAV */
@@ -958,33 +1143,29 @@ input[type=number]::-webkit-outer-spin-button {
   width: 25%;
 }
 
+.tablinks.abt .tablink {
+  opacity: 0.3;
+  color: white;
+}
+
+.tablinks.abt .tablink:first-child {
+  background-color: #c09248;
+}
+
+.tablinks.abt .tablink:nth-child(2) {
+  background-color: #9352a0;
+  
+}
+
+.tablinks.abt .tablink:last-child {
+  background-color: #51ba6c;
+}
+
 .tabcontent {
-
-  /* max-height: 100%;
-  padding-top: 180px;
-  padding-bottom: 180px; */
-
-  /* visibility: hidden;
-  opacity: 0;
-  max-height: 0;
-  transition: visibility 0s, opacity 0.5s linear; */
-
   display: none;
 }
 
-.tabcontent.show {
 
-  /* max-height: 100%;
-  height: 100%;
-  padding-top: 180px;
-  padding-bottom: 180px; */
-
-  /* visibility: visible;
-  opacity: 1;
-  max-height: 100%; */
-
-  /* display: block; */
-}
 /* End Tablinks */
 
 /* Section Whatis */
@@ -1053,6 +1234,13 @@ input[type=number]::-webkit-outer-spin-button {
   display: none;
   margin: 75px auto;
 }
+
+.methodcontent h4 {
+  font-family: 'plumpfull';
+  color: #96268c;
+  text-transform: uppercase;
+}
+
 /* End Section Whatis */
 
 /* Section Login */
@@ -1098,6 +1286,24 @@ input[type=number]::-webkit-outer-spin-button {
   font-family: 'plumpfull';
 }
 
+.parenting a,
+.next a,
+.result a,
+.talent a {
+  width: fit-content;
+  background-color: #14455C;
+  color: white;
+  border-radius: 24px;
+}
+
+.parenting a:hover,
+.next a:hover,
+.result a:hover,
+.talent a:hover {
+  background-color: #185774;
+  color: white;
+}
+
 .parenting p,
 .result p,
 .talent p {
@@ -1115,11 +1321,22 @@ input[type=number]::-webkit-outer-spin-button {
 /* Result */
 #titresult {
   margin-bottom: 52px;
+  color: #14455C;
+}
+
+.talent h3,
+.talent p {
+  color: #14455C;
+}
+
+.learner h3,
+.learner p {
+  color: #8F4972;
 }
 
 /* Question */
 .question {
-  color: #14455C;
+  color: #868d91;
 }
 
 .question-box {
@@ -1201,6 +1418,18 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 52px 0;
 }
 
+.sponsortext a {
+  width: fit-content;
+  background-color: #14455C;
+  color: white;
+  border-radius: 24px;
+}
+
+.sponsortext a:hover {
+  background-color: #185774;
+  color: white;
+}
+
 .supportpage h4 {
   color: #008959;
   margin: 48px auto;
@@ -1215,6 +1444,23 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /* Section Academic */
+.tablinks.aca .tablink {
+  border-color: white;
+  color: white;
+}
+
+.scholarlist h4 {
+  background-color: #14455C;
+  color: white;
+  padding: 6px 48px;
+  border-radius: 28px;
+  width: fit-content;
+}
+
+.sekolah {
+  margin-bottom: 24px;
+}
+
 .scholarship .content {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -1274,6 +1520,20 @@ input[type=number]::-webkit-outer-spin-button {
   width: fit-content;
   display: block;
   margin: 0 auto;
+}
+
+.kidmarket a {
+  background-color: #8F3477;
+  color: white;
+  border-radius: 24px;
+  border-color: #8F3477;
+  transition: .2s;
+}
+
+.kidmarket a:hover {
+  background-color: #ac3f8f;
+  color: white;
+  border-color: #ac3f8f;
 }
 
 .kidmartlist h4,
@@ -1377,6 +1637,21 @@ input[type=number]::-webkit-outer-spin-button {
 /* End Section Input Market */
 
 /* Section Kidizen Page */
+
+.kidizenpage a {
+  background-color: #14455C;
+  color: white;
+  border-radius: 24px;
+  border-color: #14455C;
+  transition: .2s;
+}
+
+.kidizenpage a:hover {
+  background-color: #1d6688;
+  color: white;
+  border-color: #1d6688;
+}
+
 #kboards {
   margin-left: 3%;
   position: absolute;
@@ -1490,6 +1765,10 @@ input[type=number]::-webkit-outer-spin-button {
   color: #14455C;
 }
 
+.question-content.inputnews {
+  padding: 24px 48px;
+}
+
 #submitberita {
   background-color: #14455C;
   border-radius: 24px;
@@ -1527,6 +1806,13 @@ input[type=number]::-webkit-outer-spin-button {
   font-weight: bold;
 }
 
+.bagianberita a {
+  background-color: #68A6CE;
+  color: white;
+  width: fit-content;
+  border-radius: 24px;
+}
+
 .isiberita {
   height: 400px;
   overflow-y: scroll;
@@ -1544,20 +1830,42 @@ input[type=number]::-webkit-outer-spin-button {
 /* Section Programs */
 .tablinks.programs .tablink {
   width: fit-content;
+  border-color: white;
 }
 
 .sport .content h3,
-.dreamsport h3 {
+.dreamsport h3,
+.stem .content h3,
+.dreamstem h3,
+.culture .content h3,
+.dreamculture h3,
+.kidspren .content h3,
+.dreamkidspren h3,
+.kidzprg .content h3,
+.dreamkidzprg h3,
+.artprg .content h3,
+.dreamartprg h3 {
   font-family: 'plumpfull';
   margin-top: 40px;
 }
 
-.tutorsport h4{
+
+.tutorsport h4,
+.tutorstem h4,
+.tutorculture h4,
+.tutorkidspren h4,
+.tutorkidzprg h4,
+.tutorartprg h4{
   margin-top: 32px;
   font-family: 'plumpfull';
 }
 
-.tasksport h4 {
+.tasksport h4,
+.taskstem h4,
+.taskculture h4,
+.taskkidspren h4,
+.taskkidzprg h4,
+.taskartprg h4 {
   font-family: 'plumpfull';
   background-color: #595975;
   color: white;
@@ -1568,34 +1876,63 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 24px;
 }
 
-.tasksport table {
+.tasksport table, 
+.taskstem table,
+.taskculture table,
+.taskkidspren table,
+.taskkidzprg table,
+.taskartprg table {
   margin-top: 32px;
 }
 
-.tasksport th {
-  background: #9783AB;
+.tasksport th,
+.taskstem th,
+.taskculture th,
+.taskkidspren th,
+.taskkidzprg th,
+.taskartprg th {
+  background-color: #9783AB;
   border-radius: 24px 24px 0 0;
   padding: 12px 24px;
   font-family: 'plumpfull';
   color: white;
 }
 
-.tasksport td:last-child {
+.tasksport td:last-child,
+.taskstem td:last-child,
+.taskculture td:last-child,
+.taskkidspren td:last-child,
+.taskkidzprg td:last-child,
+.taskartprg td:last-child {
   width: 15%;
-  background: #85A0B5;
+  background-color: #85A0B5;
   padding-right: 15px;
 }
 
-.tasksport td:nth-child(3) {
+.tasksport td:nth-child(3),
+.taskstem td:nth-child(3),
+.taskculture td:nth-child(3),
+.taskkidspren td:nth-child(3),
+.taskkidzprg td:nth-child(3),
+.taskartprg td:nth-child(3) {
   width: 15%;
-  background: #BBD7ED;
+  background-color: #BBD7ED;
 }
 
-.tasksport td:nth-child(2) {
-  background: white;
+.tasksport td:nth-child(2),
+.taskstem td:nth-child(2),
+.taskculture td:nth-child(2),
+.taskkidspren td:nth-child(2),
+.taskartprg td:nth-child(2) {
+  background-color: white;
 }
 
-.tasksport td:nth-child(1) {
+.tasksport td:nth-child(1),
+.taskstem td:nth-child(1),
+.taskculture td:nth-child(1),
+.taskkidspren td:nth-child(1),
+.taskkidzprg td:nth-child(1),
+.taskartprg td:nth-child(1) {
   background-color: black;
   padding-right: 0;
 }
@@ -1616,6 +1953,260 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 12px auto;
   display: block;
 }
+
+
+.button.retake {
+  background-color: white;
+  color: #767693;
+  border-radius: 24px;
+}
+
+/* theme art */
+.artprg, .tutorartprg {
+  color: #1E5B55;
+}
+
+.artprg .content a {
+  background-color: #1E5B55;
+  border-radius: 24px;
+  border-color: #1E5B55;
+  transition: .2s;
+  color: white;
+}
+
+.artprg .content a:hover {
+  background-color: #287b72;
+  border-color: #287b72;
+  color: white;
+}
+
+.dreamartprg {
+  color: #E2762C;
+}
+
+.tutorartprg .question-box {
+  background: url(../images/home/programs/boxart.svg);
+}
+
+.tutorartprg iframe {
+  border-radius: 24px;
+  width: 98%;
+  margin-left: 1%;
+}
+/* table theme art */
+.taskartprg th,
+.taskartprg h4 {
+  background-color: #962431;
+}
+
+.taskartprg td:nth-child(3) {
+  background-color: #F7B0C1;
+}
+
+.taskartprg td:last-child {
+  background-color: #D84459;
+}
+
+/* end table theme art */
+/* end theme art */
+
+/* theme culture */
+.culture .content a {
+  background-color: #514538;
+  border-radius: 24px;
+  border-color: #514538;
+  transition: .2s;
+  color: white;
+}
+
+.culture .content a:hover {
+  background-color: #7c664f;
+  border-color: #7c664f;
+  color: white;
+}
+/* table theme culture */
+.taskculture th,
+.taskculture h4 {
+  background-color: #695849;
+}
+
+.taskculture td:nth-child(3) {
+  background-color: #CEC9C4;
+}
+
+.taskculture td:last-child {
+  background-color: #AD885C;
+}
+
+/* end table theme culture */
+/* end theme culture */
+
+/* theme kidizenprg */
+.kidzprg .content,
+.dreamkidzprg {
+  color: #FDE5DB;
+}
+
+.kidzprg .content a {
+  background-color: #FDE5DB;
+  border-radius: 24px;
+  border-color: #FDE5DB;
+  transition: .2s;
+  color: #333;
+}
+
+.kidzprg .content a:hover {
+  background-color: #fcf5f2;
+  border-color: #fcf5f2;
+  color: #333;
+}
+
+.tutorkidzprg {
+  color: #57433E;
+}
+
+.tutorkidzprg .question-box {
+  background: url(../images/home/programs/boxkidz.svg);
+}
+
+.tutorkidzprg iframe {
+  border-radius: 24px;
+  width: 98%;
+  margin-left: 1%;
+}
+/* table theme kidizenprg */
+.taskkidzprg th,
+.taskkidzprg h4 {
+  background-color: #57433E;
+}
+
+.taskkidzprg td:nth-child(3) {
+  background-color: #EFB1AF;
+}
+
+.taskkidzprg td:last-child {
+  background-color: #68504B;
+}
+
+/* end table theme kidizenprg */
+/* end theme kidizenprg */
+
+/* theme kidspren */
+.kidspren .content,
+.dreamkidspren,
+.tutorkidspren {
+  color: #344A52;
+}
+
+.kidspren .content a {
+  background-color: #344A52;
+  border-radius: 24px;
+  border-color: #344A52;
+  transition: .2s;
+}
+
+.kidspren .content a:hover {
+  background-color: #4a6872;
+  border-color: #4a6872;
+}
+
+.tutorkidspren .question-box {
+  background: url(../images/home/programs/boxkidspren.svg);
+}
+
+.tutorkidspren iframe {
+  border-radius: 24px;
+  width: 98%;
+  margin-left: 1%;
+}
+/* table theme kidspren */
+.taskkidspren th,
+.taskkidspren h4 {
+  background-color: #344A52;
+}
+
+.taskkidspren td:nth-child(3) {
+  background-color: #9FDAE2;
+}
+
+.taskkidspren td:last-child {
+  background-color: #62909B;
+}
+
+/* end table theme kidspren */
+/* end theme kidspren */
+
+/* theme stem */
+.stem .content,
+.dreamstem {
+  color: #595975;
+}
+
+.stem .content a {
+  background-color: #595975;
+  border-radius: 24px;
+  border-color: #595975;
+  transition: .2s;
+}
+
+.stem .content a:hover {
+  background-color: #9595c7;
+  border-color: #9595c7;
+}
+
+.stem {
+  color: #595975;
+}
+
+.tutorstem .question-box {
+  background: url(../images/home/programs/boxstem.svg);
+}
+
+.tutorstem iframe {
+  border-radius: 24px;
+  width: 98%;
+  margin-left: 1%;
+}
+/* end theme stem */
+
+/* theme sport */
+.sport .content {
+  color: #9E4C23;
+}
+
+.sport .content a {
+  background-color: #9E4C23;
+  border-radius: 24px;
+  border-color: #9E4C23;
+  transition: .2s;
+}
+
+.sport .content a:hover {
+  background-color: #c05d2c;
+  border-color: #c05d2c;
+}
+
+.dreamsport,
+.tutorsport {
+  color: #504538;
+}
+
+.tutorsport .question-box {
+  background: url(../images/home/programs/boxsport.svg);
+}
+
+.tutorsport iframe {
+  border-radius: 24px;
+  width: 98%;
+  margin-left: 1%;
+}
+/* end theme sport */
+
+.tablink {
+  border-radius: 24px;
+  color: white;
+}
+
 /* End Section Programs */
 
 

@@ -83,10 +83,10 @@
 
   <!-- Tab Utama -->
   <div class="container narrow">
-    <div class="row tablinks">
-      <button class="tablink uc" onclick="openPage('tabwhat', this)" id="defaultOpen">What Is Olimpya Kids?</button> 
-      <button class="tablink uc" onclick="openPage('tabmethods', this)">Methods</button> 
-      <button class="tablink uc" onclick="openPage('tabmascots', this)">Mascots</button> 
+    <div class="row tablinks abt">
+      <button class="tablink uc" onclick="openPage('tabwhat', this, '#c09248')" id="defaultOpen">What Is Olimpya Kids?</button> 
+      <button class="tablink uc" onclick="openPage('tabmethods', this, '#9352a0')">Methods</button> 
+      <button class="tablink uc" onclick="openPage('tabmascots', this, '#51ba6c')">Mascots</button> 
     </div>
   </div>
   <!-- End Tab Utama -->
@@ -160,7 +160,7 @@
 
     <div class="methodcontent" id="metex">
       <div class="container more-narrow">
-        <div class="row">
+        <div class="row explore">
           <div class="one-half column">
             <img src="images/home/about-method/explore.png" alt="">
           </div>
@@ -177,7 +177,7 @@
 
     <div class="methodcontent" id="metdis">
       <div class="container more-narrow">
-        <div class="row">
+        <div class="row discovery">
           <div class="one-half column">
             <img src="images/home/about-method/discover.png" alt="">
           </div>
@@ -194,7 +194,7 @@
 
     <div class="methodcontent" id="metgrow">
       <div class="container more-narrow">
-        <div class="row">
+        <div class="row grow">
           <div class="one-half column">
             <img src="images/home/about-method/grow.png" alt="">
           </div>
@@ -324,7 +324,7 @@
     AOS.init();
   </script>
   <script>
-    function openPage(pageName,elmnt) {
+    function openPage(pageName,elmnt, color) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
@@ -334,9 +334,12 @@
       tablinks = document.getElementsByClassName("tablink");
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "";
+        tablinks[i].style.opacity = "0.3";
       }
       document.getElementById(pageName).style.display = "block";
-      // document.getElementById(pageName).classList.add("show");
+      // Add the specific color to the button used to open the tab content
+      elmnt.style.opacity = "1";
+      elmnt.style.borderColor = color;
     }
     
     // Get the element with id="defaultOpen" and click on it
