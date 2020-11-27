@@ -86,7 +86,7 @@
     <div class="row tablinks aca">
       <button class="tablink uc" onclick="openPage('tabscholar', this)" id="defaultOpen">Scholarship</button> 
       <button class="tablink uc" onclick="openPage('tabschool', this)">School List</button> 
-      <button class="tablink uc" onclick="openPage('tabschool', this)">Bulletin</button> 
+      <button class="tablink uc" onclick="openPage('tabbuletin', this)">Bulletin</button> 
     </div>
   </div>
   <!-- End Tab Utama -->
@@ -114,7 +114,7 @@
         <div class="container narrow">
             <div class="row schools">
                 <h4 class="uc tc">Scholarship List</h4>
-                <div class="school-list">
+                <div class="school-list" id="myBtn">
                     <div class="sekolah">
                         <img src="images/home/academic/siswa.png" alt="">
                         <div class="namaskol">
@@ -235,9 +235,115 @@
         </div>
     </section>
   </div>
+
+  <div class="tabcontent" id="tabbuletin">
+    <section class="beritalist buletin">
+        <img src="images/home/awanfinal.svg" alt="" class="awanusik" id="awanschlist">
+        <div class="container narrow">
+            <div class="row berita-ly1" id="munculmodal">
+                <div class="two-thirds column">
+                    <div class="berita">
+                        <img src="images/home/berita/berita.png" alt="">
+                        <div class="namaberita">
+                            <h6 class="uc">Author's Name</h6>
+                            <a href="#openModal"><h5 class="uc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="one-third column">
+                    <div class="berita">
+                        <img src="images/home/berita/berita.png" alt="">
+                        <div class="namaberita">
+                            <h6 class="uc">Author's Name</h6>
+                            <h5 class="uc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam ex. Sed labore ipsam asperiores delectus laudantium nemo.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row berita-ly2">
+                <div class="one-third column flex">
+                    <div class="berita top">
+                        <img src="images/home/berita/berita.png" alt="">
+                        <div class="namaberita">
+                            <h6 class="uc">Author's Name</h6>
+                            <h5 class="uc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam ex. Sed labore ipsam asperiores delectus laudantium nemo.</h5>
+                        </div>
+                    </div>
+                    <div class="berita bottom">
+                        <img src="images/home/berita/berita.png" alt="">
+                        <div class="namaberita">
+                            <h6 class="uc">Author's Name</h6>
+                            <h5 class="uc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam ex. Sed labore ipsam asperiores delectus laudantium nemo.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="two-thirds column">
+                    <div class="berita">
+                        <img src="images/home/berita/berita.png" alt="">
+                        <div class="namaberita">
+                            <h6 class="uc">Author's Name</h6>
+                            <h5 class="uc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
   
 
   <section class="footer"></section>
+
+   <!-- The Modal -->
+   <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        
+        <span><img src="images/home/market/close.png" alt="" id="close"></span>
+        
+        <div class="modal-body">
+            <div class="row">
+                <div class="seven columns">
+                    <h4 class="modaltitle uc">Scool Name</h4>
+                    <p class="txtmodal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis culpa animi nisi, fugit autem maxime iusto quo aspernatur.</p>
+                    <a href="" class="amodal">Learn More</a>
+                </div>
+                <div class="five columns">
+                    <img src="images/home/berita/berita.png" alt="" class="fotosekolah">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="modalberita" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+
+            <span><img src="images/home/market/close.png" alt="" id="close1"></span>
+                    
+            <div class="modal-body">
+                <div class="containerberita">
+                    <div class="containerimg">
+                      <img src="images/home/belajar.png" alt="" class="headline">
+                    </div>
+                    <div class="bagianberita">
+                      <h3 class="uc">headline</h3>
+                      <h6>Author's Name</h6>
+                      <div class="isiberita">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quaerat dicta recusandae vel eum deleniti consectetur non vero, neque perferendis maiores tempore quod aut ullam nobis corrupti. Quam, omnis aut tempora cumque debitis, laboriosam a sed harum ullam quas ea illum voluptatum magni dignissimos. Sunt doloribus molestias quam debitis ipsa dolores porro fuga non. Cum praesentium enim nobis a et expedita neque alias quae unde blanditiis aliquam veniam saepe, vel voluptatem sapiente cupiditate nesciunt, in adipisci officiis. Saepe, at aut! Itaque, illum? Reiciendis libero obcaecati temporibus tenetur quis vel accusamus nobis, aut, velit labore sed reprehenderit minima accusantium voluptatum illum ullam fugiat neque corrupti, unde consequuntur voluptatibus! Voluptate numquam facere error ratione aspernatur cum excepturi nostrum sint temporibus nam nobis dolore repellendus doloremque illo fugiat ipsa reiciendis commodi, harum maiores. Id eaque officia, maxime perferendis dicta tempora quae consequatur quisquam. Magni, quos in? Ut obcaecati praesentium ipsum asperiores consequatur repellendus aperiam cupiditate blanditiis ab molestias, maiores nesciunt ipsam nemo aut quis ratione reprehenderit, non hic quia nobis repellat neque quidem! Eaque animi, deserunt necessitatibus soluta incidunt ipsam quisquam amet commodi! Aut quaerat asperiores eum nam nesciunt porro provident cum! Quasi similique, fugit error commodi molestiae consectetur nulla laudantium accusamus ex, ipsum optio iusto laborum id blanditiis! Maxime architecto rem beatae quae provident, impedit, placeat obcaecati quas deleniti ex tempore sunt quos non incidunt iusto cumque tenetur minus odit iste eligendi consequatur veniam reprehenderit sequi. Id, aspernatur. Nemo labore rerum dignissimos nesciunt, aliquid, alias officia id corporis quas sapiente quam non architecto, pariatur sint? Laudantium dicta nisi debitis non nesciunt architecto inventore possimus accusantium voluptatem. Hic nulla laudantium cumque eligendi tempore doloremque, temporibus quos nostrum debitis numquam blanditiis ab tenetur aliquid architecto quia eos fugit unde ratione consequatur fuga iure consectetur sed. Delectus qui exercitationem impedit, explicabo laborum maxime fugiat corrupti?</p>
+                      </div>
+                      <a class="button uc" href="#" id="share">Share</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://kit.fontawesome.com/82136c52a0.js" crossorigin="anonymous"></script>
@@ -268,6 +374,47 @@
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
   </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    var modal2 = document.getElementById("modalberita");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    var btn2 = document.getElementById("munculmodal");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementById("close");
+    var span2 = document.getElementById("close1");
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    btn2.onclick = function() {
+      modal2.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    span2.onclick = function() {
+      modal2.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    }
+    </script>
 
 </body>
 </html>

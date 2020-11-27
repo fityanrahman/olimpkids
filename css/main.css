@@ -91,6 +91,7 @@ section.play {
     height: 100vh;
     margin-top: -180px;
     padding-top: 180px;
+    padding-bottom: 80px;
     z-index: 2;
     background: url(../images/home/3-bg.png);
 }
@@ -99,6 +100,7 @@ section.art {
     height: 110vh;
     margin-top: -150px;
     padding-top: 150px;
+    padding-bottom: 80px;
     z-index: 2;
     background: url(../images/home/4-bg.png) top;
 }
@@ -107,6 +109,7 @@ section.kidizen {
     height: 100vh;
     margin-top: -195px;
     padding-top: 195px;
+    padding-bottom: 80px;
     z-index: 2;
     background-position: center;
     background: url(../images/home/5-bg.png);
@@ -116,6 +119,7 @@ section.instagram {
     height: 90vh;
     margin-top: -200px;
     padding-top: 200px;
+    padding-bottom: 80px;
     z-index: 2;
     background-position: center;
     background: url(../images/home/6-bg.png);
@@ -125,7 +129,7 @@ section.partner {
     height: 90vh;
     margin-top: -195px;
     padding-top: 195px;
-    padding-bottom: 75px;
+    padding-bottom: 80px;
     z-index: 2;
     background: url(../images/home/partnerbg.png) repeat-x;
 }
@@ -186,10 +190,10 @@ section.register {
 
 section.parenting {
   max-height: 100%;
-  height: calc(100vh - 360px);
+  height: 100%;
   padding-top: 180px;
-  padding-bottom: 180px;
-
+  padding-bottom: 190px;
+  overflow: hidden;
   background: linear-gradient(0deg, rgba(171,210,180,1) 0%, rgba(185,218,141,1) 75%);
 }
 
@@ -197,7 +201,7 @@ section.result {
   max-height: 100%;
   height: 100%;
   padding-top: 140px;
-  padding-bottom: 180px;
+  padding-bottom: 190px;
   background: linear-gradient(0deg, rgba(224,176,205,1) 0%, rgba(221,134,180,1) 75%);
 }
 
@@ -205,7 +209,7 @@ section.talent {
   height: 100%;
   margin-top: -195px;
   padding-top: 195px;
-  padding-bottom: 180px;
+  padding-bottom: 190px;
   z-index: 2;
   background: url(../images/home/parenting/bg.png);
 }
@@ -223,6 +227,7 @@ section.question {
   height: calc(100vh - 300px);
   padding-top: 150px;
   padding-bottom: 150px;
+  overflow: hidden;
 
   background: linear-gradient(0deg, rgba(171,210,180,1) 0%, rgba(185,218,141,1) 75%);
 }
@@ -273,7 +278,7 @@ section.kidmarket {
   max-height: 100%;
   height: 100%;
   padding-top: 180px;
-  padding-bottom: 180px;
+  padding-bottom: 190px;
   z-index: 2;
   background: url(../images/home/market/marketbg1.png);
 }
@@ -299,7 +304,8 @@ section.official {
 
 section.inputmarket {
   max-height: 100%;
-  height: calc(100vh - 300px);
+  /* height: calc(100vh - 300px); */
+  height: 100%;
   overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
@@ -311,7 +317,7 @@ section.kidizenpage {
   max-height: 100%;
   height: 100%;
   padding-top: 180px;
-  padding-bottom: 180px;
+  padding-bottom: 190px;
   z-index: 2;
   background: linear-gradient(0deg, rgba(201,231,217,1) 0%, rgba(68,198,233,1) 75%);
 }
@@ -330,7 +336,7 @@ section.inputberita {
   height: 100%;
   padding-top: 150px;
   padding-bottom: 150px;
-
+  overflow: hidden;
   background: linear-gradient(0deg, rgba(201,231,217,1) 0%, rgba(68,198,233,1) 75%);
 }
 
@@ -624,15 +630,25 @@ nav {
   }
   
   .tombolNav ul li:nth-last-child(-n+2) {
-    margin-left: -2%;
+    /* margin-left: -2%;
     margin-right: 0%;
     padding: .8% 0 .8% .8%;
-    width: 22%;
+    width: 22%; */
+
+    /* width: 15%;
+    margin: 0% -4%; */
+
+    width: 15%;
+    margin: 0% -4%;
+    padding: 3px 0px 0px 0px;
   }
   
   .tombolNav ul li:last-child {
-    margin-left: -13%;
-    margin-right: 0;
+    /* margin-left: -13%;
+    margin-right: 0; */
+
+    padding: 5px 0 5px 5px;
+
   }
   
   .tombolNav ul li a {
@@ -678,6 +694,18 @@ nav {
   
   nav ul li:nth-child(10) {
     background-color: #2AAAC8;
+  }
+
+  #id, #en {
+    margin: auto 5px;
+    height: 25px;
+    transition: .2s;
+  }
+
+  #en:hover,
+  #id:hover {
+    filter: drop-shadow(0 0 0.75rem #fff);
+    transform: translate(-2px, -2px);
   }
 /* END NAV */
 
@@ -1125,7 +1153,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 #backcontact {
     position: absolute;
-    bottom: 45%;
+    bottom: 40%;
     width: 100%;
 }
 /* End Section Contact */
@@ -1447,6 +1475,17 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /* Section Academic */
+.fotosekolah {
+  border-radius: 24px;
+  border: 4px solid  white;
+  box-shadow: 3px 3px #888888;
+
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
 .tablinks.aca .tablink {
   border-color: white;
   color: white;
@@ -1519,6 +1558,12 @@ input[type=number]::-webkit-outer-spin-button {
 .namaskol h5 {
   margin-bottom: 0;
 }
+
+.beritalist.buletin {
+  margin-top: 0;
+  background: linear-gradient(0deg, rgba(214,227,238,1) 0%, rgba(144,196,230,1) 75%);
+}
+
 /* End Section Academic */
 
 /* Section KidsMarket */
@@ -1683,7 +1728,6 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: -85px;
 }
 
-
 .srchfrm input[type="search"]::placeholder {
   font-family: FontAwesome;
 }
@@ -1809,6 +1853,10 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 24px;
 }
 
+.modal-body .containerberita {
+  height: 70%;
+}
+
 .containerimg {
   border-radius: 24px 24px 0 0;
   height: 350px;
@@ -1847,6 +1895,10 @@ input[type=number]::-webkit-outer-spin-button {
   width: fit-content;
   display: block;
   margin: 36px auto;
+}
+
+.inputberita .txtsukses {
+  color: #14455C;
 }
 
 /* End Section Kidizen Page */
@@ -2234,6 +2286,109 @@ input[type=number]::-webkit-outer-spin-button {
 /* End Section Programs */
 
 
+/* Modal */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  border-radius: 16px;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+#close,
+#close1 {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  color: #666;
+  border-radius: 32px;
+  background-color: violet;
+}
+
+#close:hover,
+#close:focus,
+#close1:hover,
+#close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {
+  padding: 58px 64px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modaltitle {
+  font-family: 'plumpfull';
+  color: #14455C;
+}
+
+.amodal {
+  background-color: #14455C;
+  border-radius: 24px;
+  padding: 6px 24px;
+  color: white;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.amodal:hover {
+  background-color: #1e5c79;
+  color: white;
+}
+/* Modal */
 
 
 
@@ -2310,7 +2465,7 @@ input[type=number]::-webkit-outer-spin-button {
 
   @-webkit-keyframes awans {
     0% {
-      left: -100%
+      left: 0%
     }
     100% {
       left: 100%
@@ -2319,7 +2474,7 @@ input[type=number]::-webkit-outer-spin-button {
 
   @-moz-keyframes awans {
     0% {
-      left: -100%
+      left: 0%
     }
     100% {
       left: 100%

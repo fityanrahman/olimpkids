@@ -81,45 +81,39 @@
     </div>
   </nav>
 
-<section class="inputmarket">
-  <img src="images/home/awanfinal.svg" alt="" class="awanusik" id="awanschlist">
+<section class="login">
+  <img src="images/home/awanmerah.svg" alt="" class="awanusik">
     <div class="container more-narrow">
-        <div class="question-content inputmart">
-          <div class="row">
-            <div class="four columns">
-              <label for="">Product Photo</label>
-              <div class="photo">
-                <div class="uploadbtn">
-                  <button>Upload</button>
-                  <small>Drag and drop file here</small>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+            <span><img src="images/home/market/close.png" alt="" class="close"></span>
+            
+            <div class="modal-body">
+                <div class="row">
+                    <div class="seven columns">
+                        <h4 class="modaltitle uc">Scool Name</h4>
+                        <p class="txtmodal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis culpa animi nisi, fugit autem maxime iusto quo aspernatur.</p>
+                        <a href="" class="amodal">Learn More</a>
+                    </div>
+                    <div class="five columns">
+                        <img src="images/home/berita/berita.png" alt="" class="fotosekolah">
+                    </div>
                 </div>
-              </div>
-              <label for="">Location</label>
-              <input class="u-full-width" type="text">
             </div>
-            <div class="eight columns">
-              <label for="">Product Name</label>
-              <input class="u-full-width" type="text">
-
-              <label for="">Price</label>
-              <input class="u-full-width" type="text">
-
-              <label for="">Category</label>
-              <input class="u-full-width" type="text">
-
-              <label for="">Description</label>
-              <textarea class="u-full-width"></textarea>
-            </div>
-          </div>
         </div>
+
+        </div>
+
+
+
     </div>
-</section>
-
-
-<section class="footer"></section>
-
-<section class="next">
-  <a class="button button-primary uc" href="#">Submit</a>
 </section>
   
 
@@ -134,5 +128,33 @@
   <script>
     AOS.init();
   </script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    
 </body>
 </html>
